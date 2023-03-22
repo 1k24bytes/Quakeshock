@@ -10,6 +10,20 @@ body {
       font-family: sans-serif;
       background: #fffffa;
 }
+body::-webkit-scrollbar {
+    width: 8px;               
+  }
+  
+  body::-webkit-scrollbar-track {
+    background:#ffffff05;  
+    height: 1px;      
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: rgb(198,198,198);
+    background: linear-gradient(204deg, rgba(198,198,198,1) 20%, rgba(173,173,173,1) 80%); 
+    border-radius: 20px;
+  }
 
 .navbar {
     color: #594545;
