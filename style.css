@@ -33,6 +33,10 @@ body {
     padding-left: 42%;
     text-align: center;
 }
+.navbar img {
+    width:30px;
+    height:30px;
+}
 .github {
     display: flex; 
     justify-content: flex-end;
