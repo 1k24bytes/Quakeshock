@@ -10,4 +10,4 @@ This website only displays those earthquakes which are above 3 magnitude.
 [![LINK](https://img.shields.io/badge/%E2%9E%A4-Link%20To%20The%20Live%20Page-sucess)](https://1k24bytes.github.io/Quakeshock/)
 ## Languages Used
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=1k24bytes&langs_count=8&layout=wide&theme=blue-green)](https://github.com/1k24bytes/Quakeshock)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=1k24bytes&langs_count=8&layout=wide&theme=dracula)](https://github.com/1k24bytes/Quakeshock)
