@@ -8,7 +8,7 @@
 }
 body {
       font-family: sans-serif;
-      background: #fffffa;
+      background: transparent;
 }
 body::-webkit-scrollbar {
     width: 8px;               
@@ -40,28 +40,38 @@ body::-webkit-scrollbar {
    
 
 }
-.navbar h1 {
 
+.side-title {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-inline: 10px;
+}
+.main-title {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar h1 {
     font-family: 'Alkatra', cursive;
     font-size: 2.5rem;
-    padding-left: 42%;
-    text-align: center;
 }
 .navbar img {
     width:30px;
     height:30px;
 }
-.github {
-    display: flex; 
-    justify-content: flex-end;
-    
-}
+
 
 .navbar svg {
     height: 2rem;
     width: 2rem;
     color: #272323;
 }
+
+
 .container {
     width: 80%;
     margin: 75px auto;
@@ -156,16 +166,10 @@ body::-webkit-scrollbar {
         width: 100%;
         font-size: 13px;
        }
-       .navbar h1 {
-        padding-left: 35%;
-       }
+       
        footer {
         width: 95%;
         font-size: 14px;
        }
     }
-    @media  screen and (max-width:600px){
-        .navbar h1 {
-            padding-left: 19%;
-           }
-    }
+    
