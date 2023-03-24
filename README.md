@@ -9,3 +9,5 @@ This website only displays those earthquakes which are above 3 magnitude.
 ## Links
 [![LINK](https://img.shields.io/badge/%E2%9E%A4-Link%20To%20The%20Live%20Page-sucess)](https://1k24bytes.github.io/Quakeshock/)
 
+## Preview 
+![alt text](https://i.imgur.com/BbjRIue.png)
