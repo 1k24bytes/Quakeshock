@@ -15,7 +15,7 @@
   <body>
     <nav class="navbar">
         <div class="side-title-left">
-          <img src="assets/moon.png" id="icon">
+          <img src="assets/Moon.png" id="icon">
         </div>
       <div class="main-title">
         <img
@@ -183,7 +183,7 @@ if (darkTheme === "true") {
   icon.src = "assets/sun.png";
 } else {
   document.body.classList.remove("dark-theme");
-  icon.src = "assets/moon.png";
+  icon.src = "assets/Moon.png";
 }
 icon.onclick = function() {
   document.body.classList.toggle("dark-theme");
@@ -191,7 +191,7 @@ icon.onclick = function() {
     icon.src = "assets/sun.png";
     localStorage.setItem("darkTheme", "true");
   } else {
-    icon.src = "assets/moon.png";
+    icon.src = "assets/Moon.png";
     localStorage.setItem("darkTheme", "false");
   }
   icon.classList.remove("rotate");
